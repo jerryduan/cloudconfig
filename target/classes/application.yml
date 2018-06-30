@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: cloudconfig
+  cloud:
+    config:
+      server:
+        git:
+          uri: D:/code_dyy/practice/files/config
+
+server:
+  context-path: /cloudconfig
+  port: 8888
+
+
